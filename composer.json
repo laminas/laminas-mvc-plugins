@@ -1,32 +1,47 @@
 {
-    "name": "zendframework/zend-mvc-plugins",
-    "description": "Collection of all stable zend-mvc plugins served via separate packages.",
+    "name": "laminas/laminas-mvc-plugins",
+    "description": "Collection of all stable laminas-mvc plugins served via separate packages.",
     "type": "metapackage",
     "license": "BSD-3-Clause",
     "keywords": [
-        "zf2",
+        "laminas",
         "mvc",
         "plugins"
     ],
-    "homepage": "https://github.com/zendframework/zend-mvc-plugins",
+    "homepage": "https://laminas.dev",
+    "support": {
+        "docs": "https://docs.laminas.dev/laminas-mvc-plugins/",
+        "issues": "https://github.com/laminas/laminas-mvc-plugins/issues",
+        "source": "https://github.com/laminas/laminas-mvc-plugins",
+        "rss": "https://github.com/laminas/laminas-mvc-plugins/releases.atom",
+        "chat": "https://laminas.dev/chat",
+        "forum": "https://discourse.laminas.dev"
+    },
+    "config": {
+        "sort-packages": true
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
         },
-        "zf": {
+        "laminas": {
             "component": [
-                "Zend\\Mvc\\Plugin\\FilePrg",
-                "Zend\\Mvc\\Plugin\\FlashMessenger",
-                "Zend\\Mvc\\Plugin\\Identity",
-                "Zend\\Mvc\\Plugin\\Prg"
+                "Laminas\\Mvc\\Plugin\\FilePrg",
+                "Laminas\\Mvc\\Plugin\\FlashMessenger",
+                "Laminas\\Mvc\\Plugin\\Identity",
+                "Laminas\\Mvc\\Plugin\\Prg"
             ]
         }
     },
     "require": {
         "php": "^5.6 || ^7.0",
-        "zendframework/zend-mvc-plugin-fileprg": "^1.0",
-        "zendframework/zend-mvc-plugin-flashmessenger": "^1.0",
-        "zendframework/zend-mvc-plugin-identity": "^1.0",
-        "zendframework/zend-mvc-plugin-prg": "^1.0"
+        "laminas/laminas-mvc-plugin-fileprg": "^1.0",
+        "laminas/laminas-mvc-plugin-flashmessenger": "^1.0",
+        "laminas/laminas-mvc-plugin-identity": "^1.0",
+        "laminas/laminas-mvc-plugin-prg": "^1.0",
+        "laminas/laminas-zendframework-bridge": "^1.0"
+    },
+    "replace": {
+        "zendframework/zend-mvc-plugins": "self.version"
     }
 }

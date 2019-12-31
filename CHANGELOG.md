@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ### Added
 
-- Adds zend-component-installer metadata listing each component this metapackage
+- Adds laminas-component-installer metadata listing each component this metapackage
   should install in application configuration.
 
 ### Deprecated
