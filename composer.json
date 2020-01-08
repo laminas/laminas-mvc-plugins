@@ -10,7 +10,6 @@
     ],
     "homepage": "https://laminas.dev",
     "support": {
-        "docs": "https://docs.laminas.dev/laminas-mvc-plugins/",
         "issues": "https://github.com/laminas/laminas-mvc-plugins/issues",
         "source": "https://github.com/laminas/laminas-mvc-plugins",
         "rss": "https://github.com/laminas/laminas-mvc-plugins/releases.atom",
