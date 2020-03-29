@@ -41,6 +41,6 @@
         "laminas/laminas-zendframework-bridge": "^1.0"
     },
     "replace": {
-        "zendframework/zend-mvc-plugins": "self.version"
+        "zendframework/zend-mvc-plugins": "^1.0.1"
     }
 }
