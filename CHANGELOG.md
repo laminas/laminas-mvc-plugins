@@ -2,27 +2,24 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
-## 1.1.0 - TBD
+## 1.1.0 - 2021-05-27
 
-### Added
 
-- Nothing.
+-----
 
-### Changed
+### Release Notes for [1.1.0](https://github.com/laminas/laminas-mvc-plugins/milestone/1)
 
-- Nothing.
+Feature release (minor)
 
-### Deprecated
+### 1.1.0
 
-- Nothing.
+- Total issues resolved: **0**
+- Total pull requests resolved: **1**
+- Total contributors: **1**
 
-### Removed
+#### Enhancement
 
-- Nothing.
-
-### Fixed
-
-- Nothing.
+ - [5: Updates dependencies to support PHP 8](https://github.com/laminas/laminas-mvc-plugins/pull/5) thanks to @driehle
 
 ## 1.0.1 - 2016-06-02
 
